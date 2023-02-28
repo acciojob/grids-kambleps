@@ -1,2 +1,26 @@
-
+body{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	display:grid;
+	border:8px solid lightgreen;
+	padding:20px;
+	background-color:lightpink;
+	margin:10px;
+	grid-row-gap:5px;
+	}
+.row{
+	border:2px dotted black;
+	height:200px;
+}
+.first{
+	background-color:#39639d;
+}
+.second{
+	background-color:#bb86fc;
+}
+.item{
+	background-color:brown;
+}
 /* Your CSS Code here. */
